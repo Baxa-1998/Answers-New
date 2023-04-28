@@ -232,7 +232,7 @@ ol li::first-letter{
     position: absolute;
     left: 0;
     top: 0;
-    width: 80%;
+    width: 100%;
     margin-left: 50%;
     transform: translate(-50%);
 
@@ -371,6 +371,9 @@ ol li::first-letter{
         width: 200px;
         transform: translate(-50%);
 
+    }
+    .video__wrapper .back{
+        top: 150px;
     }
     
    
