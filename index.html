@@ -1054,11 +1054,12 @@
 
         <div class="add__modal">
           <h2>Add your reason</h2>
-          <input class="inp__title" placeholder="title" type="text" />
+          <form action="">        <input class="inp__title" placeholder="title" type="text" />
           <textarea class="inp__subtitle" name="" id="" cols="90" rows="10" placeholder="text"></textarea>
           <input class="inp__name" placeholder="your-name" type="text"  />
       
-          <button class="inp__btn" data-action="+">add</button>
+          <button type="reset" class="inp__btn" data-action="+">add</button></form>
+  
         </div>
       </div>
     </div>
@@ -1191,9 +1192,10 @@
 
             newWrapper.insertAdjacentHTML('afterbegin', newHTML)
             localStorage.setItem('new',(newWrapper.outerHTML)) 
-            inpName= ''
+            inpName = ''
             inpSubtitle = ''
             inpTitle = ''
+            alert('Your reason has been added')
 
 
             }else{
